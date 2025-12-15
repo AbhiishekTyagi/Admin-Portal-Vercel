@@ -32,7 +32,7 @@
 //   );
 // }
 // export default Service; 
-import { useAuth } from "../store/auth";
+import { useAuth } from "../Store/auth.jsx";
 
 function Service() {
   const { services } = useAuth();
