@@ -12,7 +12,7 @@ export const AuthProvider=({ children })=>{
     const Authorizationtoken=`Bearer ${token}`;
 
     //Get the data from the .env file  
-    const API=import.meta.env.VITE_APP_URI_API;
+    const API="https://admin-portal-render.onrender.com";
 
 
     //function to stored the token in local storage access in all Components Globally
